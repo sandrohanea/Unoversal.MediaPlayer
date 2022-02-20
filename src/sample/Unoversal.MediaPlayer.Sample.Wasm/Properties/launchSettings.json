@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Unoversal.MediaPlayer.Sample.Wasm": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:59299;http://localhost:59300"
+    }
+  }
+}

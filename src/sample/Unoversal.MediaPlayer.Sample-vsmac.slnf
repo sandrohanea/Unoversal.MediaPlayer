@@ -1,0 +1,21 @@
+{
+  "solution": {
+    "path": "Unoversal.MediaPlayer.Sample.sln",
+    "projects": [
+		"Unoversal.MediaPlayer.Sample.Shared\\Unoversal.MediaPlayer.Sample.Shared.shproj",
+
+		"Unoversal.MediaPlayer.Sample.Droid\\Unoversal.MediaPlayer.Sample.Droid.csproj",
+
+		"Unoversal.MediaPlayer.Sample.iOS\\Unoversal.MediaPlayer.Sample.iOS.csproj",
+
+
+		"Unoversal.MediaPlayer.Sample.Wasm\\Unoversal.MediaPlayer.Sample.Wasm.csproj",
+
+		"Unoversal.MediaPlayer.Sample.macOS\\Unoversal.MediaPlayer.Sample.macOS.csproj",
+
+		"Unoversal.MediaPlayer.Sample.Skia.Gtk\\Unoversal.MediaPlayer.Sample.Skia.Gtk.csproj",
+
+		"Unoversal.MediaPlayer.Sample.Skia.Linux.FrameBuffer\\Unoversal.MediaPlayer.Sample.Skia.Linux.FrameBuffer.csproj",
+    ]
+  }
+}
