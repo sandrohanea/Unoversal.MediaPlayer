@@ -4,18 +4,26 @@
 	Please see https://github.com/unoplatform/uno/issues/3909 for more details.
 	-->
 	<PropertyGroup>
-		<TargetFrameworks>uap10.0.18362;netstandard2.0;xamarinios10;xamarinmac20;monoandroid10.0</TargetFrameworks>
+		<TargetFrameworks>net5.0</TargetFrameworks>
 		<!-- Ensures the .xr.xml files are generated in a proper layout folder -->
 		<GenerateLibraryLayout>true</GenerateLibraryLayout>
-		<DefineConstants>$(DefineConstants);NATIVE</DefineConstants>
 	</PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="Uno.UI" Version="4.0.13" />
+		<PackageReference Include="Uno.UI.WebAssembly" Version="4.0.13" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<Page Include="**\*.xaml" Exclude="bin\**\*.xaml;obj\**\*.xaml" />
 	</ItemGroup>
-	
+
+
+	<ItemGroup>
+	  <EmbeddedResource Include="WasmCSS\video-js.css" />
+	  <EmbeddedResource Include="WasmCSS\ump.css" />
+	  <EmbeddedResource Include="WasmScripts\video.js" />
+	  <EmbeddedResource Include="WasmScripts\ump.js" />
+	</ItemGroup>
+
 	<Import Project="..\Unoversal.MediaPlayer.Shared\Unoversal.MediaPlayer.Shared.projitems" Label="Shared" Condition="Exists('..\Unoversal.MediaPlayer.Shared\Unoversal.MediaPlayer.Shared.projitems')" />
 </Project>

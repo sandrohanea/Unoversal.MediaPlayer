@@ -10,9 +10,7 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="ump:UnoversalMediaPlayer">
-                    <Grid>
-                        <TextBlock Text="Test" />
-                    </Grid>
+                    <ContentPresenter Content="{TemplateBinding Content}" />
                 </ControlTemplate>
             </Setter.Value>
         </Setter>

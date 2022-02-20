@@ -51,7 +51,7 @@
     <PackageReference Include="Uno.Wasm.Bootstrap.DevServer" Version="3.1.2" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Unoversal.MediaPlayer\Unoversal.MediaPlayer.csproj" />
+    <ProjectReference Include="..\..\Unoversal.MediaPlayer.Wasm\Unoversal.MediaPlayer.Wasm.csproj" />
   </ItemGroup>
   <Import Project="..\Unoversal.MediaPlayer.Sample.Shared\Unoversal.MediaPlayer.Sample.Shared.projitems" Label="Shared" Condition="Exists('..\Unoversal.MediaPlayer.Sample.Shared\Unoversal.MediaPlayer.Sample.Shared.projitems')" />
 </Project>

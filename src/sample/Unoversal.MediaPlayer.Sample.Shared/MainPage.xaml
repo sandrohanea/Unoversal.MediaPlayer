@@ -11,6 +11,6 @@
 
     <StackPanel>
         <TextBlock Text="Hello, Unoversal Media Player!" Margin="20" FontSize="30" />
-        <ump:UnoversalMediaPlayer />
+        <ump:UnoversalMediaPlayer Source="https://d2zihajmogu5jn.cloudfront.net/bipbop-advanced/gear3/prog_index.m3u8" AreTransportControlsEnabled="True"/>
     </StackPanel>
 </Page>
